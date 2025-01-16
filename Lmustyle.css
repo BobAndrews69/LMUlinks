@@ -1,0 +1,183 @@
+div {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  align-items: center;
+  margin: auto;
+}
+
+#Main {
+  color: #00883A;
+  height: 5000px;
+  margin-top: 80px;
+  background-color: #F5F5F5;
+  margin-left: auto;
+  margin-right: auto;
+  width: 850px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#Main.dark-mode {
+  color: #33ec83;
+  background-color: #1d1f22;
+}
+
+body {
+  background-color: #00883A;
+
+}
+
+body.dark-mode {
+  background-color: rgb(8, 48, 0);
+}
+
+h1 {
+  text-align: center;
+}
+
+
+#Nav {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+}
+
+#Nav.dark-mode {
+  background: #1d1f22;
+}
+
+button {
+  background-color: #f1f1f1;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+
+body.dark-mode button {
+  background-color: #333333;
+  color: white;
+
+}
+
+.Kopf {
+  background-color: white;
+
+}
+
+.Kopf.dark-mode {
+  background-color: #1d1f22;
+  color: #E6E6E7;
+}
+
+#KopfTable {
+  width: 90%;
+  margin: auto;
+}
+
+nav a {
+  margin: 2%;
+  width: 59px;
+  color: black;
+  font-variant: normal;
+  text-decoration: none;
+}
+
+nav a.dark-mode {
+  color: #E6E6E7;
+}
+
+.Bold {
+  font-weight: bold;
+}
+
+#ST td, th {
+  border-collapse: collapse;
+  background-color: #E6E6E7;
+  text-align: center;
+}
+#ST td.dark-mode, th.dark-mode {
+  background-color: #333333;
+}
+ul li a {
+  text-decoration: none;
+  color: #00883A;
+} 
+ul li a.dark-mode {
+  color: #33ec83;
+}
+
+
+#ST {
+  width: 90%;
+  margin: auto;
+}
+
+ul {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+img {
+  height: 59px;
+  margin-top: 4px;
+}
+
+#Katzenraumschiff {
+  width: 100%;
+  height: 10%;
+
+}
+
+#divkazte {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.large-button {
+  width: 200px;
+  height: 190px;
+  position: absolute;
+  background: url('https://www.myinstants.com/media/images/transparent_button_sprite.png') no-repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-position: -5px -5px;
+  border: 0;
+  display: block;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.large-button-background {
+  width: 188px;
+  height: 174px;
+  margin-top: 7px;
+  margin-left: 6px;
+  position: absolute;
+}
+
+#Musikknopf {
+  margin-top: 2%;
+  border-radius: 15px;
+  border: 1;
+}
+
+#YTM {
+  height: 19.666666666px;
+  width: 65.555555555px;
+
+  border: 0;
+
+}
+
+#GPT {
+  height: 19.666666666px;
+}
+
+#wrapper {
+  text-align: center;
+  border: 1px black;
+  margin: 5px;
+}
